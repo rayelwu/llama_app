@@ -31,7 +31,7 @@ function App() {
 
         setLoading(true)
         setData(null)
-        axios.post("http://127.0.0.1:11434/api/chat", {
+        axios.post("http://2157gj2673.iok.la/api/chat", {
           "model": "deepseek-r1:32b",
           "messages": messages,
           raw: true,
